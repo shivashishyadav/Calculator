@@ -21,7 +21,7 @@ def button_add():
     first_number = e.get()
     global f_num
     global math
-    math = "adition"
+    math = "addition"
     f_num = float(first_number)
     e.delete(0, END)
 
